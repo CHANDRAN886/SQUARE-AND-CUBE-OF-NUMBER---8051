@@ -20,7 +20,12 @@ To write and execute an Assembly language program for finding the square of a gi
 
 
 
-
+MOV A,P0
+MOV R0,A
+MOV B,R0
+MUL AB
+MOV P2,A
+END
 
 
 
@@ -29,6 +34,7 @@ To write and execute an Assembly language program for finding the square of a gi
 ```
 
 ## OUTPUT
+<img width="765" height="364" alt="image" src="https://github.com/user-attachments/assets/cb7b35b9-fa88-4add-9d6b-bd4db909531e" />
 
 
 ## RESULT
