@@ -60,7 +60,16 @@ To write and execute an Assembly language program for finding the cube of a give
 
 
 
-
+MOV A, P0     
+MOV R0, A     
+MOV B, A      
+MUL AB        
+MOV R1, A    
+MOV A, R1     
+MOV B, R0     
+MUL AB        
+MOV P2, A   
+END
 
 
 
@@ -69,6 +78,7 @@ To write and execute an Assembly language program for finding the cube of a give
 
 
 ## OUTPUT
+<img width="808" height="384" alt="image" src="https://github.com/user-attachments/assets/359ac9f8-4c11-484c-9bae-93cd18e28d54" />
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
